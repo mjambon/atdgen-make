@@ -1,7 +1,7 @@
 # Sample Makefile using Atdgen.mk and OCamlMakefile.
 
 .PHONY: default
-default: opt all
+default: opt
 
 ATDGEN_SOURCES = hello.atd
 ATDGEN_FLAGS = -j-std
